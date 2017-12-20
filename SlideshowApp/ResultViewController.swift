@@ -21,10 +21,11 @@ class ResultViewController: UIViewController {
     }
     
     
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-            }
+    }
     
 
     /*

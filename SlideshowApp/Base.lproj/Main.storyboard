@@ -65,7 +65,7 @@
                                     <constraint firstAttribute="height" constant="30" id="k0q-yZ-IdT"/>
                                 </constraints>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="再生/停止"/>
+                                <state key="normal" title="停止"/>
                                 <connections>
                                     <action selector="startSlide:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ecd-p7-BTS"/>
                                 </connections>
@@ -91,7 +91,10 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="back" destination="atK-Qn-cDQ" id="Q93-xN-LLW"/>
+                        <outlet property="forward" destination="oIO-be-XoV" id="UiI-1F-phC"/>
                         <outlet property="imageView" destination="TPg-jY-Cch" id="63y-Do-sRu"/>
+                        <outlet property="startStop" destination="YMo-Bh-yzZ" id="vo7-I5-BKJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -155,7 +158,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="om6-8p-dzC" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="BLN-tB-D1r" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="851.25" y="36.971830985915496"/>
+            <point key="canvasLocation" x="1084" y="38"/>
         </scene>
     </scenes>
 </document>
